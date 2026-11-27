@@ -1,0 +1,11 @@
+
+Call:
+protest(X = micro_scores, Y = env_scores, permutations = 9999,      symmetric = TRUE) 
+
+Procrustes Sum of Squares (m12 squared):        0.7141 
+Correlation in a symmetric Procrustes rotation: 0.5347 
+Significance:  1e-04 
+
+Permutation: free
+Number of permutations: 9999
+

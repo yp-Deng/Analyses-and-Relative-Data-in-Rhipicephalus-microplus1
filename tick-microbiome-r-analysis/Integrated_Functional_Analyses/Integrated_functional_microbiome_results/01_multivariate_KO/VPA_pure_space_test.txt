@@ -1,0 +1,10 @@
+Permutation test for dbrda under reduced model
+Permutation: free
+Number of permutations: 9999
+
+Model: vegan::dbrda(formula = bray ~ Longitude_z + Latitude_z + Condition(Clade, Stage, Temperature_z, Humidity_z, Altitude_z), data = meta, sqrt.dist = TRUE)
+         Df SumOfSqs      F Pr(>F)    
+Model     2   2.7344 8.4012  1e-04 ***
+Residual 64  10.4153                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

@@ -1,0 +1,6 @@
+"Genus","EvidenceClass","EvidenceLayers","RobustAssociation","DA_DirectionConflict","ConcordantContrasts","ConflictContrasts","LEfSeSupport","LEfSeComparisons","SelectionFrequency","RFStable","Degree","Betweenness","NetworkCentral"
+"Rhodococcus","Robust association",1,TRUE,FALSE,"B vs A; C vs A","",FALSE,NA,NA,FALSE,NA,NA,FALSE
+"Leclercia","Multi-layer evidence",2,TRUE,FALSE,"B vs A; C vs A","",TRUE,"A vs B (A)",NA,FALSE,1,0,FALSE
+"Psychrobacter","Multi-layer evidence",2,FALSE,FALSE,"","",TRUE,"A vs B (A); A vs C (A); B vs C (B)",0.94,TRUE,3,0.0162853019995877,FALSE
+"Campylobacter","Multi-layer evidence",3,FALSE,TRUE,"","B vs A",TRUE,"A vs B (A); A vs C (A)",0.99,TRUE,2,0.179550608122037,TRUE
+"Mycobacterium","Stable discriminator",1,FALSE,FALSE,"","",FALSE,NA,1,TRUE,4,0.0298652217019564,FALSE

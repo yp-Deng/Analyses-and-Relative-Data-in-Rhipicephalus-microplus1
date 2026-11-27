@@ -1,0 +1,18 @@
+Permutation test for adonis under reduced model
+Marginal effects of terms
+Permutation: free
+Number of permutations: 9999
+
+vegan::adonis2(formula = bray ~ Clade + Stage + Temperature_z + Humidity_z + Altitude_z + Latitude_z + Longitude_z, data = meta, permutations = 9999, by = "margin")
+              Df SumOfSqs      R2       F Pr(>F)    
+Clade          2   0.8893 0.15024 10.0383 0.0001 ***
+Stage          2   0.2635 0.04451  2.9739 0.0108 *  
+Temperature_z  1   0.2381 0.04022  5.3745 0.0022 ** 
+Humidity_z     1   0.2935 0.04959  6.6268 0.0020 ** 
+Altitude_z     1   0.1780 0.03007  4.0178 0.0082 ** 
+Latitude_z     1   0.3217 0.05434  7.2614 0.0002 ***
+Longitude_z    1   0.0465 0.00785  1.0487 0.3398    
+Residual      59   2.6135 0.44152                   
+Total         68   5.9193 1.00000                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

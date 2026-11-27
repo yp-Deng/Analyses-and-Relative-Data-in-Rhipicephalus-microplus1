@@ -1,0 +1,12 @@
+Joint model = Clade + Stage
+All five requested layers are supported: Gene, COG, Family, KO and Species.
+Missing layer files are skipped with a warning rather than stopping all analyses.
+Alpha analysis uses HC3 robust covariance and BH-adjusted estimated marginal means.
+The original unadjusted LSD.test workflow is not used.
+Beta analysis uses Bray-Curtis dissimilarity and Lingoes-corrected PCoA.
+PERMANOVA/PERMDISP permutations = 9999
+Marginal PERMANOVA is used for the independent Clade and Stage effects.
+PERMDISP is evaluated separately for Clade and Stage.
+Beta input orientation is automatically determined by matching metadata SampleIDs.
+Every abundance matrix is explicitly reordered to metadata SampleID before statistics.
+Final Alpha and Beta diversity figures are exported as separate multilayer panels.

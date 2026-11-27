@@ -1,0 +1,5 @@
+"","Df","R.squared","Adj.R.squared","Testable"
+"[a] = X1|X2",2,NA,-0.0175093211856895,TRUE
+"[b] = X2|X1",5,NA,0.110679712821178,TRUE
+"[c]",0,NA,0.0570971696015803,FALSE
+"[d] = Residuals",NA,NA,0.849732438762931,FALSE

@@ -1,0 +1,10 @@
+"Clade","Stage","Freq"
+"A","Adult",9
+"B","Adult",13
+"C","Adult",11
+"A","Larva",0
+"B","Larva",10
+"C","Larva",6
+"A","Nymph",0
+"B","Nymph",10
+"C","Nymph",10

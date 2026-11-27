@@ -1,0 +1,11 @@
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = distances ~ group, data = df)
+
+$group
+          diff        lwr          upr     p adj
+B-A -0.3015053 -0.4590955 -0.143915150 0.0000607
+C-A -0.4028640 -0.5641627 -0.241565279 0.0000003
+C-B -0.1013586 -0.2101062  0.007388917 0.0727529
+

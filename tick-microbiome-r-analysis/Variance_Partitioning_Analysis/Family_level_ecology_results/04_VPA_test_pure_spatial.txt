@@ -1,0 +1,10 @@
+Permutation test for rda under reduced model
+Permutation: free
+Number of permutations: 9999
+
+Model: rda(formula = family_hel ~ Longitude_z + Latitude_z + Condition(Clade, Stage, Temperature_z, Humidity_z, Altitude_z), data = meta)
+         Df Variance      F Pr(>F)    
+Model     2 0.030461 12.141  1e-04 ***
+Residual 64 0.080287                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

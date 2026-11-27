@@ -1,0 +1,3 @@
+RF stable threshold: SelectionFrequency >= 0.8
+Network Degree 90th percentile = 5
+Network Betweenness 90th percentile = 0.14501

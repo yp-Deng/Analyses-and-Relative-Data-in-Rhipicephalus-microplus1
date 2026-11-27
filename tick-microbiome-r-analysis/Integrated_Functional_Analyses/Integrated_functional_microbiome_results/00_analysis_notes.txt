@@ -1,0 +1,13 @@
+Common samples analysed: 69
+COG feature mode: COG_only
+COG Others removed: TRUE
+CAZy level 2 absolute abundance was transposed to sample x family and converted to sample-wise relative abundance.
+CAZy level 1 supplied values were retained for differential modelling; a within-CAZy TSS composition was used for Bray-Curtis/dbRDA.
+COG uploaded data were treated as counts/abundances rather than pre-normalized relative abundances and converted to within-COG sample-wise relative abundance.
+Genus, KO, COG and CAZy compositional Bray-Curtis distances use sample-wise unit-sum profiles.
+Genus is included primarily as the taxonomic reference layer for cross-layer concordance.
+Functional MaAsLin2 models adjust for Clade, Stage, Temperature, Humidity, Altitude, Latitude and Longitude.
+All multivariate layers use the same sequential/marginal PERMANOVA, PERMDISP, dbRDA and VPA framework.
+Cross-layer Mantel and Procrustes analyses test concordance, not causal relationships.
+KEGG pathway scores overlap because a KO can map to multiple pathways.
+KEGG over-representation uses KOs retained for MaAsLin2 as the background.

@@ -1,0 +1,41 @@
+
+Partition of Bray distance in dbRDA 
+
+Call: vegan::varpart(Y = bray, X = host_mm, env_mm, space_mm, sqrt.dist = TRUE)
+
+Explanatory tables:
+X1:  host_mm
+X2:  env_mm
+X3:  space_mm 
+
+No. of explanatory tables: 3 
+Total variation (SS): 4.602 
+No. of observations: 69 
+
+Partition table:
+                      Df R.square Adj.R.square Testable
+[a+d+f+g] = X1         4  0.39541      0.35762     TRUE
+[b+d+e+g] = X2         3  0.14632      0.10691     TRUE
+[c+e+f+g] = X3         2  0.21823      0.19454     TRUE
+[a+b+d+e+f+g] = X1+X2  7  0.49939      0.44195     TRUE
+[a+c+d+e+f+g] = X1+X3  6  0.46757      0.41604     TRUE
+[b+c+d+e+f+g] = X2+X3  5  0.31046      0.25574     TRUE
+[a+b+c+d+e+f+g] = All  9  0.53468      0.46370     TRUE
+Individual fractions                                   
+[a] = X1 | X2+X3       4               0.20796     TRUE
+[b] = X2 | X1+X3       3               0.04766     TRUE
+[c] = X3 | X1+X2       2               0.02176     TRUE
+[d]                    0               0.01354    FALSE
+[e]                    0               0.03667    FALSE
+[f]                    0               0.12707    FALSE
+[g]                    0               0.00905    FALSE
+[h] = Residuals                        0.53630    FALSE
+Controlling 1 table X                                  
+[a+d] = X1 | X3        4               0.22151     TRUE
+[a+f] = X1 | X2        4               0.33503     TRUE
+[b+d] = X2 | X3        3               0.06120     TRUE
+[b+e] = X2 | X1        3               0.08432     TRUE
+[c+e] = X3 | X1        2               0.05842     TRUE
+[c+f] = X3 | X2        2               0.14882     TRUE
+---
+Use function ‘dbrda’ to test significance of fractions of interest
