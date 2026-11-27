@@ -1,0 +1,13 @@
+.RData
+.Rhistory
+*.tmp
+*.bak
+*.zip
+*.gz
+*.gml
+*.dmnd
+*.html
+*.js
+*.css
+__pycache__/
+.DS_Store
